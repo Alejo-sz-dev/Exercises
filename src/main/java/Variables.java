@@ -5,9 +5,9 @@ public class Variables {
      //Variables
         var sc = new Scanner(System.in);
 
-        System.out.print("Dame la altura del rec:");
+        System.out.print("Dame la altura del rectangulo:");
         var altura = Integer.parseInt(sc.nextLine());
-        System.out.print("Dame base del rec:");
+        System.out.print("Dame base del rectangulo:");
         var base = Integer.parseInt(sc.nextLine());
         var area = base * altura;
 
