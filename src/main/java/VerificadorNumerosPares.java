@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VerificadorPrimo {
+public class VerificadorNumerosPares {
 public static void main(String[] args) {
 
     Scanner  sc = new Scanner(System.in);
@@ -9,10 +9,10 @@ public static void main(String[] args) {
     var numero  = Integer.parseInt(sc.nextLine());
 
     if (numero % 2 == 0){
-        System.out.println("El numero es primo");
+        System.out.println("El numero es par");
         }
         else {
-            System.out.println("El numero no es primo");
+            System.out.println("El numero no es impar");
         }
     }
 }
